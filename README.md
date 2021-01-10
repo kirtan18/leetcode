@@ -7,6 +7,7 @@
 |136|[ Single Number](https://leetcode.com/problems/single-number/)|[C++](./solutions/136.%20Single%20Number.cpp)|28 ms|
 |237|[ Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[C++](./solutions/237.%20Delete%20Node%20in%20a%20Linked%20List.cpp)|16 ms|
 |344|[ Reverse String](https://leetcode.com/problems/reverse-string/)|[C++](./solutions/344.%20Reverse%20String.cpp)|28 ms|
+|496|[ Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[C++](./solutions/496.%20Next%20Greater%20Element%20I.cpp)|12 ms|
 |876|[ Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[C++](./solutions/876.%20Middle%20of%20the%20Linked%20List.cpp)|0 ms|
 |965|[ Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[C++](./solutions/965.%20Univalued%20Binary%20Tree.cpp)|0 ms|
 |1022|[ Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[C++](./solutions/1022.%20Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers.cpp)|8 ms|
