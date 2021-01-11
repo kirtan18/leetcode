@@ -14,6 +14,7 @@
 |38|[ Count and Say](https://leetcode.com/problems/count-and-say/)|[C++](./solutions/38.%20Count%20and%20Say.cpp)||
 |61|[ Rotate List](https://leetcode.com/problems/rotate-list/)|[C++](./solutions/61.%20Rotate%20List.cpp)|8 ms|
 |73|[ Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|[C++](./solutions/73.%20Set%20Matrix%20Zeroes.cpp)|48 ms|
+|75|[ Sort Colors](https://leetcode.com/problems/sort-colors/)|[C++](./solutions/75.%20Sort%20Colors.cpp)|4 ms|
 |82|[ Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[C++](./solutions/82.%20Remove%20Duplicates%20from%20Sorted%20List%20II.cpp)|12 ms|
 |83|[ Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[C++](./solutions/83.%20Remove%20Duplicates%20from%20Sorted%20List.cpp)||
 |86|[ Partition List](https://leetcode.com/problems/partition-list/)|[C++](./solutions/86.%20Partition%20List.cpp)|8 ms|
