@@ -1,4 +1,4 @@
-​
+// time == O(nlogn)
 #define mod 1000000007;
 #include<bits/stdc++.h>
 class Solution {
