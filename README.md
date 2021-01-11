@@ -36,6 +36,7 @@
 |344|[ Reverse String](https://leetcode.com/problems/reverse-string/)|[C++](./solutions/344.%20Reverse%20String.cpp)|28 ms|
 |430|[ Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)|[C++](./solutions/430.%20Flatten%20a%20Multilevel%20Doubly%20Linked%20List.cpp)|4 ms|
 |496|[ Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[C++](./solutions/496.%20Next%20Greater%20Element%20I.cpp)|12 ms|
+|501|[ Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|[C++](./solutions/501.%20Find%20Mode%20in%20Binary%20Search%20Tree.cpp)|28 ms|
 |526|[ Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)|[C++](./solutions/526.%20Beautiful%20Arrangement.cpp)|4 ms|
 |637|[ Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[C++](./solutions/637.%20Average%20of%20Levels%20in%20Binary%20Tree.cpp)|24 ms|
 |697|[ Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[C++](./solutions/697.%20Degree%20of%20an%20Array.cpp)|124 ms|
