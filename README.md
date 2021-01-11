@@ -8,6 +8,7 @@
 |19|[ Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[C++](./solutions/19.%20Remove%20Nth%20Node%20From%20End%20of%20List.cpp)|0 ms|
 |21|[ Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[C++](./solutions/21.%20Merge%20Two%20Sorted%20Lists.cpp)|8 ms|
 |23|[ Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[C++](./solutions/23.%20Merge%20k%20Sorted%20Lists.cpp)|32 ms|
+|25|[ Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[C++](./solutions/25.%20Reverse%20Nodes%20in%20k-Group.cpp)|20 ms|
 |31|[ Next Permutation](https://leetcode.com/problems/next-permutation/)|[C++](./solutions/31.%20Next%20Permutation.cpp)|0 ms|
 |61|[ Rotate List](https://leetcode.com/problems/rotate-list/)|[C++](./solutions/61.%20Rotate%20List.cpp)|8 ms|
 |73|[ Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|[C++](./solutions/73.%20Set%20Matrix%20Zeroes.cpp)|48 ms|
