@@ -53,6 +53,7 @@
 |501|[ Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|[C++](./solutions/501.%20Find%20Mode%20in%20Binary%20Search%20Tree.cpp)|28 ms|
 |526|[ Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)|[C++](./solutions/526.%20Beautiful%20Arrangement.cpp)|4 ms|
 |543|[ Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[C++](./solutions/543.%20Diameter%20of%20Binary%20Tree.cpp)|56 ms|
+|599|[ Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)|[C++](./solutions/599.%20Minimum%20Index%20Sum%20of%20Two%20Lists.cpp)||
 |623|[ Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[C++](./solutions/623.%20Add%20One%20Row%20to%20Tree.cpp)|24 ms|
 |637|[ Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[C++](./solutions/637.%20Average%20of%20Levels%20in%20Binary%20Tree.cpp)|24 ms|
 |697|[ Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[C++](./solutions/697.%20Degree%20of%20an%20Array.cpp)|124 ms|
