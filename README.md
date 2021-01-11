@@ -65,6 +65,7 @@
 |930|[ Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/)|[C++](./solutions/930.%20Binary%20Subarrays%20With%20Sum.cpp)|116 ms|
 |965|[ Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[C++](./solutions/965.%20Univalued%20Binary%20Tree.cpp)|0 ms|
 |987|[ Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|[C++](./solutions/987.%20Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree.cpp)|4 ms|
+|993|[ Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|[C++](./solutions/993.%20Cousins%20in%20Binary%20Tree.cpp)|4 ms|
 |1022|[ Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[C++](./solutions/1022.%20Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers.cpp)|8 ms|
 |1137|[ N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|[C++](./solutions/1137.%20N-th%20Tribonacci%20Number.cpp)|0 ms|
 |1189|[ Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/)|[C++](./solutions/1189.%20Maximum%20Number%20of%20Balloons.cpp)|4 ms|
