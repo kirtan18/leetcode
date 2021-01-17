@@ -81,7 +81,7 @@
 |1539|[ Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|[C++](./solutions/1539.%20Kth%20Missing%20Positive%20Number.cpp)|8 ms|
 |1609|[ Even Odd Tree](https://leetcode.com/problems/even-odd-tree/)|[C++](./solutions/1609.%20Even%20Odd%20Tree.cpp)|348 ms|
 |1640|[ Check Array Formation Through Concatenation](https://leetcode.com/problems/check-array-formation-through-concatenation/)|[C++](./solutions/1640.%20Check%20Array%20Formation%20Through%20Concatenation.cpp)|8 ms|
-|1641|[ Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/)|[C++](./solutions/1641.%20Count%20Sorted%20Vowel%20Strings.cpp)|0 ms|
+|1641|[ Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/)|[C++](./solutions/1641.%20Count%20Sorted%20Vowel%20Strings.cpp)|4 ms|
 |1649|[ Create Sorted Array through Instructions](https://leetcode.com/problems/create-sorted-array-through-instructions/)|[C++](./solutions/1649.%20Create%20Sorted%20Array%20through%20Instructions.cpp)|568 ms|
 |1662|[ Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[C++](./solutions/1662.%20Check%20If%20Two%20String%20Arrays%20are%20Equivalent.cpp)|4 ms|
 |1688|[ Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)|[C++](./solutions/1688.%20Count%20of%20Matches%20in%20Tournament.cpp)|0 ms|
