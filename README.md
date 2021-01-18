@@ -85,5 +85,6 @@
 |1641|[ Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/)|[C++](./solutions/1641.%20Count%20Sorted%20Vowel%20Strings.cpp)|4 ms|
 |1649|[ Create Sorted Array through Instructions](https://leetcode.com/problems/create-sorted-array-through-instructions/)|[C++](./solutions/1649.%20Create%20Sorted%20Array%20through%20Instructions.cpp)|568 ms|
 |1662|[ Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[C++](./solutions/1662.%20Check%20If%20Two%20String%20Arrays%20are%20Equivalent.cpp)|4 ms|
+|1679|[ Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)|[C++](./solutions/1679.%20Max%20Number%20of%20K-Sum%20Pairs.cpp)|364 ms|
 |1688|[ Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)|[C++](./solutions/1688.%20Count%20of%20Matches%20in%20Tournament.cpp)|0 ms|
 |1689|[ Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)|[C++](./solutions/1689.%20Partitioning%20Into%20Minimum%20Number%20Of%20Deci-Binary%20Numbers.cpp)|40 ms|
