@@ -1,9 +1,6 @@
 class Solution {
 public:
- 
-// https://github.com/bhallashivam1997/Code_Explainer_Youtube/blob/main/Leetcode/Path_With_Minimum_Effort.cpp
-​
-  int minimumEffortPath(vector<vector<int>>& a) {
+    int minimumEffortPath(vector<vector<int>>& a) {
         int n=a.size();
         int m=a[0].size();
 ​
@@ -40,6 +37,25 @@ public:
         }
         return v[n-1][m-1];
     }
-};
-​
-​
+    
+    /*
+    
+    int vis[105][105];
+    vector<pair<int,int>> dir = {{1,0} , {-1,0} , {0,-1} , {0,1}};
+    void helper(int x , int y , int mid , vector<vector<int>>& heights){
+        
+        if(!vis[x][y]){
+            vis[x][y] = 1;
+            int n = heights.size();
+            int m = heights[0].size();
+            
+            for(int i = 0 ; i < 4 ;i++){
+                int X = x+dir[i].first;
+                int Y = y+dir[i].second;
+                
+                if(X<0 || X>= n || Y<0 || Y>=m)
+                    continue;
+                
+                if(abs(heights[x][y] - heights[X][Y]) <= mid)
+                    helper(X,Y,mid,heights);
+                
