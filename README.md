@@ -92,5 +92,6 @@
 |1657|[ Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/)|[C++](./solutions/1657.%20Determine%20if%20Two%20Strings%20Are%20Close.cpp)|72 ms|
 |1662|[ Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[C++](./solutions/1662.%20Check%20If%20Two%20String%20Arrays%20are%20Equivalent.cpp)|4 ms|
 |1679|[ Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)|[C++](./solutions/1679.%20Max%20Number%20of%20K-Sum%20Pairs.cpp)|364 ms|
+|1680|[ Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)|[C++](./solutions/1680.%20Concatenation%20of%20Consecutive%20Binary%20Numbers.cpp)|88 ms|
 |1688|[ Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)|[C++](./solutions/1688.%20Count%20of%20Matches%20in%20Tournament.cpp)|0 ms|
 |1689|[ Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)|[C++](./solutions/1689.%20Partitioning%20Into%20Minimum%20Number%20Of%20Deci-Binary%20Numbers.cpp)|40 ms|
