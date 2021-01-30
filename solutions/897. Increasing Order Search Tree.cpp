@@ -30,3 +30,14 @@ public:
        
     }
 };
+​
+// using stack
+​
+/*
+ TreeNode* increasingBST(TreeNode* root) {
+       
+        TreeNode *prev = NULL,*res=NULL;
+        stack<TreeNode*> st;
+        
+        while (root || !st.empty()) {
+            while (root) {
