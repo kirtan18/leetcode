@@ -68,6 +68,7 @@
 |876|[ Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[C++](./solutions/876.%20Middle%20of%20the%20Linked%20List.cpp)|0 ms|
 |881|[ Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|[C++](./solutions/881.%20Boats%20to%20Save%20People.cpp)|72 ms|
 |896|[ Monotonic Array](https://leetcode.com/problems/monotonic-array/)|[C++](./solutions/896.%20Monotonic%20Array.cpp)|128 ms|
+|897|[ Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[C++](./solutions/897.%20Increasing%20Order%20Search%20Tree.cpp)|0 ms|
 |930|[ Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/)|[C++](./solutions/930.%20Binary%20Subarrays%20With%20Sum.cpp)|116 ms|
 |938|[ Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[C++](./solutions/938.%20Range%20Sum%20of%20BST.cpp)|112 ms|
 |965|[ Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[C++](./solutions/965.%20Univalued%20Binary%20Tree.cpp)|0 ms|
