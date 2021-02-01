@@ -88,6 +88,7 @@
 |1379|[ Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)|[C++](./solutions/1379.%20Find%20a%20Corresponding%20Node%20of%20a%20Binary%20Tree%20in%20a%20Clone%20of%20That%20Tree.cpp)|740 ms|
 |1437|[ Check If All 1's Are at Least Length K Places Away](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)|[C++](./solutions/1437.%20Check%20If%20All%201's%20Are%20at%20Least%20Length%20K%20Places%20Away.cpp)|56 ms|
 |1448|[ Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)|[C++](./solutions/1448.%20Count%20Good%20Nodes%20in%20Binary%20Tree.cpp)|172 ms|
+|1486|[ XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)|[C++](./solutions/1486.%20XOR%20Operation%20in%20an%20Array.cpp)|0 ms|
 |1512|[ Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|[C++](./solutions/1512.%20Number%20of%20Good%20Pairs.cpp)|0 ms|
 |1539|[ Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)|[C++](./solutions/1539.%20Kth%20Missing%20Positive%20Number.cpp)|8 ms|
 |1609|[ Even Odd Tree](https://leetcode.com/problems/even-odd-tree/)|[C++](./solutions/1609.%20Even%20Odd%20Tree.cpp)|348 ms|
