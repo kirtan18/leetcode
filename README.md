@@ -53,6 +53,7 @@
 |234|[ Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[C++](./solutions/234.%20Palindrome%20Linked%20List.cpp)||
 |236|[ Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[C++](./solutions/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.cpp)|20 ms|
 |237|[ Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[C++](./solutions/237.%20Delete%20Node%20in%20a%20Linked%20List.cpp)|16 ms|
+|284|[ Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[C++](./solutions/284.%20Peeking%20Iterator.cpp)|0 ms|
 |287|[ Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[C++](./solutions/287.%20Find%20the%20Duplicate%20Number.cpp)|12 ms|
 |328|[ Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[C++](./solutions/328.%20Odd%20Even%20Linked%20List.cpp)|8 ms|
 |344|[ Reverse String](https://leetcode.com/problems/reverse-string/)|[C++](./solutions/344.%20Reverse%20String.cpp)|28 ms|
