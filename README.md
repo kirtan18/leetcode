@@ -70,6 +70,7 @@
 |669|[ Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[C++](./solutions/669.%20Trim%20a%20Binary%20Search%20Tree.cpp)|8 ms|
 |697|[ Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[C++](./solutions/697.%20Degree%20of%20an%20Array.cpp)|124 ms|
 |728|[ Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/)|[C++](./solutions/728.%20Self%20Dividing%20Numbers.cpp)|0 ms|
+|821|[ Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[C++](./solutions/821.%20Shortest%20Distance%20to%20a%20Character.cpp)|0 ms|
 |863|[ All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)|[C++](./solutions/863.%20All%20Nodes%20Distance%20K%20in%20Binary%20Tree.cpp)|12 ms|
 |865|[ Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|[C++](./solutions/865.%20Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes.cpp)|0 ms|
 |876|[ Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[C++](./solutions/876.%20Middle%20of%20the%20Linked%20List.cpp)|0 ms|
