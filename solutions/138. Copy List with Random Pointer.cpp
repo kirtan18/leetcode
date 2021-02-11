@@ -1,19 +1,28 @@
-/*
-// Definition for a Node.
-class Node {
-public:
-    int val;
-    Node* next;
-    Node* random;
-    
-    Node(int _val) {
-        val = _val;
-        next = NULL;
-        random = NULL;
-    }
+         iter = head;
+         Node * pseudohead = new Node(0);
+         Node * copy = pseudohead;
+         
+         while(iter!= NULL){
+             front = iter->next->next;
+             
+             copy->next = iter->next;
+             
+             iter->next = front;
+             
+             copy = copy->next;
+             
+             iter = front;  
+         }
+         
+         return pseudohead->next;
+          
+     }    
 };
-*/
 ​
+/*
+                      // Time com == O(N)  space == O(N)
+  
+  
 class Solution {
 public:
     unordered_map<Node*,Node*>m;   
@@ -26,5 +35,10 @@ public:
         m[head]->random = copyRandomList(head->random);
         return m[head];
         
-    }
+    }
 };
+​
+*/
+​
+​
+​
