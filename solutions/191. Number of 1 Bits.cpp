@@ -1,9 +1,7 @@
 class Solution {
 public:
-    
-    // time = O(1)  space  = O(1)
     int hammingWeight(uint32_t n) {
-        int count =0;
+        int count = 0;
         while(n){
             n = n & (n-1);
             count++;
