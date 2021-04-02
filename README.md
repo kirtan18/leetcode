@@ -92,6 +92,7 @@
 |987|[ Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)|[C++](./solutions/987.%20Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree.cpp)|4 ms|
 |993|[ Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|[C++](./solutions/993.%20Cousins%20in%20Binary%20Tree.cpp)|4 ms|
 |1022|[ Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)|[C++](./solutions/1022.%20Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers.cpp)|8 ms|
+|1071|[ Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)|[C++](./solutions/1071.%20Greatest%20Common%20Divisor%20of%20Strings.cpp)|4 ms|
 |1137|[ N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|[C++](./solutions/1137.%20N-th%20Tribonacci%20Number.cpp)|0 ms|
 |1189|[ Maximum Number of Balloons](https://leetcode.com/problems/maximum-number-of-balloons/)|[C++](./solutions/1189.%20Maximum%20Number%20of%20Balloons.cpp)|4 ms|
 |1207|[ Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)|[C++](./solutions/1207.%20Unique%20Number%20of%20Occurrences.cpp)|0 ms|
