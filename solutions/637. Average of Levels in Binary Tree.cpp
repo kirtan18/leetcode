@@ -1,35 +1,32 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
-#include<queue>
+// *** using DFS ***//
+​
 class Solution {
-public:
-   // time comp : O(n)  space : O(h) 
+    pair<double,int>layer[1000];
+    int pos = 0;
     
+    void dfs(TreeNode* root , int depth = 0){
+        layer[depth].first += root->val , layer[depth].second++;
+        
+        pos = max(pos,depth);
+        
+        if(root->left)dfs(root->left , depth+1);
+        if(root->right)dfs(root->right , depth+1);
+    }  
+public:
     vector<double> averageOfLevels(TreeNode* root) {
-        vector<double>ans;
+        if(!root)return {};
+        dfs(root);
+        vector<double>ans(++pos);
         
-        // using queue
-        queue<TreeNode*>que;
-        que.push(root);
-        
-        while(!que.empty()){
-            int size = que.size();
-            double sum = 0;
-            
-           for(int i = que.size(); i > 0;i--){
-                auto front = que.front(); que.pop();
-                
-                sum += front->val;
-                
-                if(front->left) que.push(front->left);
-                if(front->right) que.push(front->right);
-            }
+        while(pos--){
+            ans[pos] = (layer[pos].first / layer[pos].second);
+        }
+        return ans;
+    }
+};
+​
+​
+​
+​
+​
+​
