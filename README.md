@@ -74,7 +74,7 @@
 |594|[ Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[C++](./solutions/594.%20Longest%20Harmonious%20Subsequence.cpp)|76 ms|
 |599|[ Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)|[C++](./solutions/599.%20Minimum%20Index%20Sum%20of%20Two%20Lists.cpp)||
 |623|[ Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/)|[C++](./solutions/623.%20Add%20One%20Row%20to%20Tree.cpp)|24 ms|
-|637|[ Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[C++](./solutions/637.%20Average%20of%20Levels%20in%20Binary%20Tree.cpp)|24 ms|
+|637|[ Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[C++](./solutions/637.%20Average%20of%20Levels%20in%20Binary%20Tree.cpp)|20 ms|
 |669|[ Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[C++](./solutions/669.%20Trim%20a%20Binary%20Search%20Tree.cpp)|16 ms|
 |695|[ Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[C++](./solutions/695.%20Max%20Area%20of%20Island.cpp)|32 ms|
 |697|[ Degree of an Array](https://leetcode.com/problems/degree-of-an-array/)|[C++](./solutions/697.%20Degree%20of%20an%20Array.cpp)|124 ms|
