@@ -69,7 +69,7 @@
 |526|[ Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)|[C++](./solutions/526.%20Beautiful%20Arrangement.cpp)|4 ms|
 |538|[ Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[C++](./solutions/538.%20Convert%20BST%20to%20Greater%20Tree.cpp)|32 ms|
 |543|[ Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[C++](./solutions/543.%20Diameter%20of%20Binary%20Tree.cpp)|56 ms|
-|559|[ Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[C++](./solutions/559.%20Maximum%20Depth%20of%20N-ary%20Tree.cpp)|16 ms|
+|559|[ Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[C++](./solutions/559.%20Maximum%20Depth%20of%20N-ary%20Tree.cpp)|20 ms|
 |581|[ Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[C++](./solutions/581.%20Shortest%20Unsorted%20Continuous%20Subarray.cpp)|28 ms|
 |594|[ Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/)|[C++](./solutions/594.%20Longest%20Harmonious%20Subsequence.cpp)|76 ms|
 |599|[ Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)|[C++](./solutions/599.%20Minimum%20Index%20Sum%20of%20Two%20Lists.cpp)||
