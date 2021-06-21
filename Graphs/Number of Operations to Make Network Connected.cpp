@@ -3,7 +3,7 @@
 //   Given an initial computer network connections. You can extract certain cables between two directly connected computers, 
 //   and place them between any pair of disconnected computers to make them directly connected.
 //   Return the minimum number of times you need to do this in order to make all the computers connected. 
-//   If it's not possible, return -1. 
+//   If it's not possible, return -1
 
 Input: n = 4, connections = [[0,1],[0,2],[1,2]]
 Output: 1
