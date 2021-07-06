@@ -1,0 +1,104 @@
+ls
+cd
+git init
+git remote add origin <gitLink>
+git remote -v
+git add .
+git commit -m "First commit"
+git push origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+15–20 LPA
+
+Flipkart
+D.E Shaw
+Zomato
+Arcesium
+Salesforce
+Google (?)
+12–15 LPA
+
+Amazon
+Oracle
+Walmart
+JP Morgan (?)
+Visa
+Qualcomm
+Morgan Stanley
+Intuit
+Citrix
+SAP Labs
+Sapient
+Tesco
+Paypal
+Microsoft
+Samsung
+Mathworks
+Apple
+Myntra
+Paytm
+InMobi
+ServiceNow
+NetApp
+Expedia
+LinkedIn
+Dream11
+Texas Instruments
+Directi
+10–12 LPA
+
+Citicorp
+Dell
+Juniper Networks
+Cisco
+Riverbed Technologies
+GE Healthcare
+Target
+Informatica
+Adobe
+Mastercard
+American Express
+Xilinx
+Aurigo
+Startups- Firms less than 10 years old
+
+Above 30 LPA
+
+None, I guess, as far as I am aware of. If you know any firm, let me know :)
+20–30 LPA
+
+MotorQ: 25–26 LPA
+Rubrik: 27–28 LPA
+Codenation: 24–25 LPA
+Sprinklr
+Rivigo
+15–20 LPA
+
+Uber
+Swiggy
+PhonePe
+Dunzo
+Sharechat
+Cure.fit
+SumoLogic
+Delhivery
+Groupon
+12–15 LPA
+
+Zeta
+Postman
+Media.Net
+Udaan (?)
+Hotstar
+MPL
