@@ -51,3 +51,43 @@ public:
         return ret;
     }
 };
+
+
+
+////////////////////////////////////////////// Using Queue ////////////////////////////////////////////////////
+
+class Solution {
+public:
+    vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
+        queue<TreeNode *> q;    //Initialising queue , (for bfs mostly we use queue) 
+        vector<vector<int>> ans;    //ans 2D vector
+        int c=0;    //count variable
+        if(!root)
+            return ans; //To handle the edge test case i.e. if NULL tree is provided
+        q.push(root);   //now we push the whole root node in the queue
+        while(!q.empty())
+        {
+            int s = q.size();   //we take the size beforehand so that the changes made inside the loop doesnt affect , how many times it will run
+            vector<int> vec;    //1D vector to store values 
+            c++;    //we increase count vector every time we go to one layer deep 
+            for(int i=1;i<=s;i++)
+            {
+                TreeNode *t = q.front();        
+                q.pop();
+                vec.push_back(t->val);  //we push the value of the current node to the 1D vector
+                if(t->left)
+                    q.push(t->left);    //if the left node of the root node is present , then push the left node in the queue
+                if(t->right)
+                    q.push(t->right);   //if the right node of the root node is present , then push the right node in the queue
+            }
+            if(c%2==0)  
+                reverse(vec.begin(),vec.end()); //now , we took the count variable because there was a pattern in the output that the 1D vector in the 2D vector at even counts are reversed and thats how it was zigzag , so we check the condition and reverse it. 
+            ans.push_back(vec); //here we push the 1D vector in the ans.
+        }
+        return ans; //returning the 2D vector as our ans 
+    }
+};
+
+
+
+
