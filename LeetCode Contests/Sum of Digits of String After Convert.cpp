@@ -9,7 +9,7 @@ public:
         int stor = 0 ;
         string curr =  "";
         for(int i = 0 ; i < s.size() ; i++){
-            
+           // to convert char index means if a then 1 and z then 26 and d = 4 , e = 5 thats it // it's convert into sbcd wise index number           
            curr += to_string(s[i] & NUM);
 
         }
