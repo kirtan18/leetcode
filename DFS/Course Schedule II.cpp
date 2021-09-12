@@ -12,8 +12,7 @@ public:
         }
         
         for(int i =0; i < prerequisites.size(); i++){
-            indeg[prerequisites[i][0]]++;
-            
+            indeg[prerequisites[i][0]]++;    
         }
         
         for(int i = 0 ; i < indeg.size() ; i++){
@@ -21,7 +20,6 @@ public:
                 q.push(i);
             }
         }
-        
         vector<int>topo;
         while(!q.empty()){
             int node = q.front();
@@ -35,9 +33,9 @@ public:
              topo.emplace_back(node);
         }
         
-        if (topo.size() != n)
-        topo.clear();
-        return topo;
+       if(topo.size() == n){
+           return topo;
+       }
+        return {};
     }
 };
-
