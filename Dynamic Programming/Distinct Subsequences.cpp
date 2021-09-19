@@ -1,6 +1,10 @@
 https://leetcode.com/problems/distinct-subsequences/
 
+T.C = O(M*N)
+S.C = O(1)    
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
 class Solution {
 public:
     int numDistinct(string s, string t) {
