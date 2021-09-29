@@ -1,5 +1,31 @@
 // https://practice.geeksforgeeks.org/problems/coin-change2448/1#
 
+
+//  Most  Optimal Using only 1D Array
+
+int main(){
+    int n;
+    cin >> n;
+    int a[n];
+    for(int i=0;i<n;i++){
+        cin >> a[i];
+    }
+    int amt;
+    cin >> amt;
+    
+    vector<int>dp(amt+1,0);
+    dp[0] = 1;
+    
+    for(int i = 0 ; i < n ; i++){
+        for(int j = a[i] ; j < amt+1 ; j++){
+            dp[j] += dp[j-a[i]];
+        }
+    }
+    
+    cout << dp[amt] << "\n";
+    return 0;
+}
+
 //  This method in we use knapsack unbounded method bcs in this question in value use over 1 times so 
 
  long long int count( int S[], int m, int n )
