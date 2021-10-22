@@ -48,16 +48,18 @@ public:
         for(int i = 1; i < n; i++) {
             int cur = env[i][1];
 
-            auto itr = lower_bound(dp.begin(), dp.end(), cur);
             
 			// if all values are less than cur then its time to push the current inside dp
-            if (itr == dp.end())
+            if(dp.back() < cur){
                 dp.push_back(cur);
-            
-			// else if it is greater then replace the value already present at itr index with cur as cur is lesser
-            else if(*itr > cur){
-                dp[itr - dp.begin()] = cur;
             }
+            
+			// else if it is greater then replace the value already present at itr index with cur as cur is                    lesser
+            else{
+                 int itr = lower_bound(dp.begin(), dp.end(), cur)-dp.begin();
+                 dp[itr] = cur;
+            }
+           
         }
 		
         return dp.size();
