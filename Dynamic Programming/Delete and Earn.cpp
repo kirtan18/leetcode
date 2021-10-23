@@ -19,3 +19,25 @@ public:
 
     }
 };
+
+/////////////////////////////////////////////////////////////////
+
+class Solution {
+public:
+    int deleteAndEarn(vector<int>& nums) {
+        
+        vector<int>sum(10005,0);
+        for(int i=0;i<nums.size();i++){
+            sum[nums[i]] += nums[i];
+        }
+        
+        vector<int>dp(10005);
+        dp[1] = sum[1];
+        dp[2] = max(sum[1],sum[2]);
+        
+        for(int i=3;i<10005;i++){
+            dp[i] = max(sum[i] + dp[i-2],dp[i-1]);
+        }
+        return max(dp[10004],dp[10003]);
+    }
+};
