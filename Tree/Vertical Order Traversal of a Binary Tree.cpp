@@ -5,43 +5,40 @@
  /////////////////////////////////////////////////////////////// Using BFS /////////////////////////////////////////////////////////////////////////////////////
  /////////////////////////////////////////////////////// Time : O(logn)*O(logn)*O(logn)*O(n) for both approch ///////////////////////////////////////////////////////////////////////////
 
-  vector<vector<int>> verticalTraversal(TreeNode* root) {
-        TreeNode*curr;
-        queue<pair<TreeNode*,int>>q;
-        q.push({root,0});
-        vector<vector<int>>ans;
-        map<int ,vector<int>>mymap;
+ class Solution {
+public:
+    vector<vector<int>> verticalTraversal(TreeNode* root) {
+        map<int,map<int,multiset<int>>>mp;
+        queue<pair<TreeNode*,pair<int,int>>>todo;
+        todo.push({root,{0,0}});
         
-        while(!q.empty()){
-            int size = q.size();
-            map<int,set<int>>mapset;
+        while(!todo.empty()){
+            auto p = todo.front();
+            todo.pop();
+            TreeNode * node = p.first;
+            int x = p.second.first;
+            int y = p.second.second;
+            mp[x][y].insert(node->val);
             
-            while(size--){
-                curr = q.front().first;
-                int col = q.front().second;
-                q.pop();
-                
-                mapset[col].insert(curr->val);
-                
-                if(curr->left)
-                    q.push({curr->left,col-1});
-                
-                if(curr->right)
-                    q.push({curr->right,col+1});
-                                
+            if(node->left){
+                todo.push({node->left,{x-1,y+1}});
             }
-             for(auto it: mapset)
-                for(auto it2: it.second)
-                    mymap[it.first].push_back(it2);
-            
+            if(node->right){
+                todo.push({node->right,{x+1,y+1}});
+            }
         }
-         for(auto it: mymap)
-            ans.push_back(it.second);
         
+        vector<vector<int>>ans;
+        for(auto p : mp){
+            vector<int>temp;
+            for(auto q : p.second){
+                temp.insert(temp.end(),q.second.begin(),q.second.end());
+            }
+            ans.push_back(temp);
+        }
         return ans;
-        
     }
-
+};
 
    ////////////////////////////////////////////////////////////////  DFS  ////////////////////////////////////////////////////////////////////////////////
  
