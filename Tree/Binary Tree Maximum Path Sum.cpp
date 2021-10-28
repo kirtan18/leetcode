@@ -6,23 +6,18 @@
 
 class Solution {
     
-    int MaximumSum(TreeNode * root, int &res){
+    int solve(TreeNode*root,int &ans){
         if(!root)return 0;
-        int l = MaximumSum(root->left,res);
-        int r = MaximumSum(root->right,res);
-        // cout << l << " " << r <<" " <<"\n";
-        int temp = max(max(l,r)+root->val , root->val);
-        int ans = max(temp,l+r+root->val);
-        
-        res = max(res,ans);
-        // cout << temp<<"*" ;
-        return temp;
+        int lh = solve(root->left,ans);
+        int rh = solve(root->right,ans);
+        ans = max(ans,lh+rh+root->val);
+        return max(0,root->val+max(lh,rh));
     }
     
 public:
     int maxPathSum(TreeNode* root) {
-        int res = INT_MIN;
-        MaximumSum(root,res);
-        return res;
+        int ans = INT_MIN;
+        solve(root,ans);
+        return ans;
     }
 };
