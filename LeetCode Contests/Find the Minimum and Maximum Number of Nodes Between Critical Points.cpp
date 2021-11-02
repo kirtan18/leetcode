@@ -1,35 +1,31 @@
 https://leetcode.com/contest/weekly-contest-265/problems/minimum-operations-to-convert-number/
 
 
+
 class Solution {
 public:
-    int minimumOperations(vector<int>& nums, int start, int goal) {
-        queue<int>q;
-        int moves = 0;
-        q.push(start);
-        vector<bool>vis(1001,0);
-        while(!q.empty()){
-            int size = q.size();
-            for(int i=0;i<size;i++){
-                int curr = q.front();
-                q.pop();
+    vector<int> nodesBetweenCriticalPoints(ListNode* head) {
+        int first = INT_MAX , last = 0 , prev_val = head->val , min_diff = INT_MAX;
+        
+        int i = 0;
+        while(head->next != NULL){
+            if(max(prev_val,head->next->val) < head->val || 
+               min(prev_val,head->next->val) > head->val){
                 
-                if(curr == goal){
-                    return moves;
+                if(last != 0){
+                    min_diff = min(min_diff,i - last);
                 }
-                if(curr < 0  || curr > 1000 || vis[curr]){
-                    continue;
-                }
-                
-                vis[curr] = 1;
-                for(int i=0;i<nums.size();i++){
-                    q.push(curr + nums[i]);
-                    q.push(curr - nums[i]);
-                    q.push(curr ^ nums[i]);
-                }
-            }
-            moves++;
+                first = min(first,i);
+                last  = i; 
+            } 
+            prev_val = head->val;
+            head = head->next;
+            i++;
         }
-        return -1;
+        
+        if(min_diff == INT_MAX){
+            return {-1,-1};
+        }
+        return {min_diff,last-first};
     }
 };
